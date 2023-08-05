@@ -1,0 +1,97 @@
+
+/*SECCION PRESENTACION*/
+#presentacion{
+    background-color: rgba(16, 16, 36, 1);
+    
+}
+
+#presentacion_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#presentacion_imagen{
+    height: 14.1rem;
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+#presentacion_descripcion{
+    text-align: center;
+    width: 25rem;
+}
+
+
+/*SECCION MI EXPERIENCIA*/
+#experiencia {
+    background-color: rgba(18, 18, 39, 1);
+    text-align: center;
+    
+}
+
+#contenedor_experiencia{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  
+}
+
+#experiencia_contenedor{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.experiencia_card_habilidades h3{
+    margin-bottom: 0px;
+}
+
+.experiencia_card_habilidades p{
+    margin-top: 0px;
+}
+
+.experiencia_card_habilidades{
+    margin: 0.5rem;
+}
+
+.card_imagen{
+    width: 100%;
+    height: 5rem;
+}
+
+
+/*SECCION CONTACTO*/
+
+#contactame{
+    
+    
+    width: 100%;
+    background-color: rgba(18, 18, 39, 1);
+    
+
+    
+}
+#contactame_contenedor{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#contactame_informacion{
+    width: 40rem;
+}

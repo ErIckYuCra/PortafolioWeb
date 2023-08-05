@@ -1,0 +1,87 @@
+/*SECCION MODAL PROYECTO*/
+
+#modal{
+
+    display: none;
+
+    box-sizing: border-box;
+    position: fixed;
+    background-color: rgba(18, 18, 39, 0.8);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+    
+
+
+}
+
+#modal_proyecto{
+
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    background-color: rgb(148, 117, 24);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+ 
+  
+
+}
+
+#modal_proyecto h3{
+    color: white;
+    width: 70%;
+    margin: auto;
+
+}
+
+#modal_cerrar{
+   
+    background-image: url("https://icones.pro/wp-content/uploads/2022/05/icone-fermer-et-x-rouge.png");
+    border-radius: 50%;
+    position: absolute;
+    right: 20.5%;
+    top: 16.5%;
+    width: 2rem;
+    height: 2rem;
+
+    background-size: contain;
+}
+
+
+
+
+#modal_contenido{
+    height: 85%;
+    background-color: white;
+    width: 100%;
+    overflow: auto;
+}
+#banner_modal{
+    width: 100%;
+    height: 40%;
+   
+    background-size: cover;
+    background-position: center;
+}
+#detalle_modal{
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    padding-top: 1rem;
+}
+
+#detalle_modal p{
+    color: black;
+}
+
+/*HOVER*/
+
+#modal_cerrar:hover {
+    cursor: pointer;
+}

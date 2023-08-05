@@ -1,0 +1,51 @@
+/*SECCION PROYECTOS RESUMEN*/
+
+#proyectos{
+    
+    background-color: rgba(16, 16, 36, 1);
+    text-align: center;
+    
+}
+
+#contenedor_proyectos{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    
+
+}
+
+#proyectos_resumen{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    
+
+}
+
+/*PROYECTOS*/
+
+#proyectos_contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+    
+}
+
+.proyectos_card img{
+    width: 100%;
+    height: 10rem;
+    border: solid white;
+}
+
+
+/*HOVER*/
+.proyectos_card:hover{
+    cursor: pointer;
+}
