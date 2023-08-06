@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/proyectos.css">
-    <link rel="stylesheet" href="CSS/modal.css">
+
     <title>Proyectos</title>
     
 </head>
 <body>
 
     
-
-
     <header >
         <div id="navbar">
 
@@ -29,9 +27,12 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="informacion.html">Informacion</a></li>
-                        <li><a href="proyectos.html">Proyectos</a></li>
-                       
+                        <li><a href="proyectos.html">Proyectos</a></li>           
                     </ul>
+                    <div id="menu_responsive">
+                        <img src="IMAGES/menu_lateral.png" alt="#">
+                    </div>
+
                 </nav>
             </div>
         </div>      
@@ -70,34 +71,20 @@
        
     </footer>
 
-    <div id="modal">
-
-        <div id="modal_proyecto">
-            
-            <h3>Aplicacion Web de Gestion Hotelera</h3>
-            <div id="modal_cerrar"></div>
-
-
-            <section id="modal_contenido">
-
-                <div id="banner_modal">
-                   
-                </div>
-
-                <div id="detalle_modal">
-                    <h4>Descripcion</h1>
-                    <p>"GoExplore" es una innovadora aplicación móvil diseñada para los amantes de la aventura y la exploración. Esta plataforma te brinda una experiencia única al facilitar la planificación y organización de emocionantes viajes y actividades al aire libre.</p>
-                    <a href="#"class="a_redireccion">Ingresa al proyecto</a>
-                </div>
-
-            </section>
-
-        </div>
+    <div   id="menu_oculto">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="informacion.html">Informacion</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>           
+            </ul>
+        </nav>
 
     </div>
-    
 
-    <script src="JS/modal.js"></script>
+    <script src="JS/cargar_datos_proyecto.js"></script>
+    <script src="JS/menu_responsive.js"></script>
+
 
 
 </body>

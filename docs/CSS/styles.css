@@ -26,6 +26,9 @@ p{
 }
 
 /*HEADER*/
+#menu_responsive{
+    display: none;
+}
 
 header{
     background-color: rgb(148, 117, 24);
@@ -39,10 +42,8 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
     flex-wrap: wrap;
+    padding: 0.5rem;
 }
 
 #navbar_titulo{
@@ -62,14 +63,35 @@ nav ul{
     flex-direction: row;    
 }
 
-@media (max-width: 750px){
-    nav ul{
+@media (max-width: 616px){
+ 
+
+    #nabvar{
         flex-direction: column;
-        
+    }
+    
+    #navbar_responsive{
+        flex: none
+    }
+  
+}
+
+@media (max-width: 332px){
+
+    #menu_responsive{
+        display: flex;
     }
 
-    #navbar{
-        flex-direction: column;
+    #nabvar{
+        flex-direction: row;
+    }
+
+    
+
+    nav ul{
+ 
+        display: none;
+        
     }
 
 }
@@ -85,9 +107,38 @@ li a{
     color: white;
 }
 
+/*MENU OCULTO*/
+
+#menu_oculto{
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(16, 16, 36, 0.9);
+    box-sizing: border-box;
+    top: 14.5%;
+    display: none;
+    justify-content: right;
+
+}
+
+#menu_oculto nav{
+    width: 65%;
+    background-color: black;
+    box-sizing: border-box;
+    
+    height: 100%;
+}
+
+#menu_oculto nav ul{
+    display: flex;
+    flex-direction: column;
+}
 
 
-
+#menu_responsive:hover{
+    cursor: pointer;
+}
 /*SECCION PIE*/
 footer{
     background-color: black;

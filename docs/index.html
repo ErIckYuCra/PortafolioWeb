@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/informacion.css">
     <link rel="stylesheet" href="CSS/proyectos.css">
-    <link rel="stylesheet" href="CSS/modal.css">
+
     <title>Home</title>
 </head>
 <body>
@@ -28,6 +28,10 @@
                         <li><a href="informacion.html">Informacion</a></li>
                         <li><a href="proyectos.html">Proyectos</a></li>           
                     </ul>
+                    <div id="menu_responsive">
+                        <img src="IMAGES/menu_lateral.png" alt="#">
+                    </div>
+
                 </nav>
             </div>
         </div>      
@@ -107,9 +111,16 @@
             <div id="proyectos_contenedor">
                 <section class="proyectos_card">
                     <img src="https://img.freepik.com/vector-premium/aplicacion-programacion-plantilla-interfaz-usuario-administrador-tareas-optimizacion-tiempo-linea-tiempo-proyecto-interfaz-tablero-aplicacion-web-administracion-tareas-diseno-vectorial_102902-6106.jpg?w=2000" alt="#">
+                    <h4>Aplicacion Web de Gestion Hotelera</h4>
+                    <div class="card_links_proyecto">
+                        <a href="#" class="a_redireccion" >Ver Proyecto</a>
+                        <a href="#" class="a_redireccion">Ver el Repositorio</a>
+                    </div>
+                    
                 </section>
                
             </div>
+            
             <a class="a_redireccion" href="proyectos.html">Ver Todo</a>
         </div>
         
@@ -144,36 +155,22 @@
         </div>
        
     </footer>
-    <div id="modal">
 
-        <div id="modal_proyecto">
-            
-            <h3>Aplicacion Web de Gestion Hotelera</h3>
-            <div id="modal_cerrar"></div>
-
-
-            <section id="modal_contenido">
-
-                <div id="banner_modal">
-                   
-                </div>
-
-                <div id="detalle_modal">
-                    <h4>Descripcion</h1>
-                    <p>"GoExplore" es una innovadora aplicación móvil diseñada para los amantes de la aventura y la exploración. Esta plataforma te brinda una experiencia única al facilitar la planificación y organización de emocionantes viajes y actividades al aire libre.</p>
-                    <a href="#"class="a_redireccion">Ingresa al proyecto</a>
-                </div>
-
-            </section>
-
-        </div>
+    <div   id="menu_oculto">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="informacion.html">Informacion</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>           
+            </ul>
+        </nav>
 
     </div>
     
-
-    <script src="JS/modal.js"></script>
-
+    <script src="JS/cargar_datos_proyecto.js"></script>
     <script src="JS/cargar_datos_experiencia.js"></script>
+    <script src="JS/menu_responsive.js"></script>
+
 
 </body>
 </html>
