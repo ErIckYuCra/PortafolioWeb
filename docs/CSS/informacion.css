@@ -18,9 +18,16 @@
 }
 
 #presentacion_imagen{
-    height: 14.1rem;
+
     border-radius: 2%;
     overflow: hidden;
+    
+}
+
+
+#imagen_presentacion{
+    height: 222px
+    
 }
 
 #presentacion_descripcion{
